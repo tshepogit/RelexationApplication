@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RelexationApplication.CategoryPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame CornerRadius="10" OutlineColor="Moccasin" Padding="0" HasShadow="True" HeightRequest="150" Margin="50, 50, 50, 10">
+                <StackLayout BackgroundColor="Moccasin" Margin="0">
+                    <Label Text="Types of Stories" FontSize="50" Margin="50" FontAttributes="Bold" TextColor="Coral" VerticalTextAlignment="Center"
+                           HorizontalTextAlignment="Center" VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" BackgroundColor="Coral"/>
+            <ListView x:Name="categoryListView" ItemTapped="onClickItem" BackgroundColor="Moccasin">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ContentView Padding="5">
+                                <Frame OutlineColor="Transparent" CornerRadius="3" Padding="10" HasShadow="True" HeightRequest="100">
+                                    <StackLayout Padding="20" Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="BurlyWood">
+                                        <Label Text="{Binding CategoryName}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold" 
+                                               FontSize="35" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="DarkRed"/>
+                                    </StackLayout>
+                                </Frame>
+                            </ContentView>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Frame BackgroundColor="BurlyWood" HorizontalOptions="FillAndExpand" HasShadow="True">
+                <Label FontSize="Small" TextColor="Black" FontAttributes="Italic" Text="Developed by T. V. Koole" HorizontalOptions="Center"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\Views\CategoryPage.xaml.g.cs
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\Views\HeaderContentPage.xaml.g.cs
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\Views\LinesPage.xaml.g.cs
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\Views\ReadingPage.xaml.g.cs
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\RelexationApplication.csproj.CoreCompileInputs.cache
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\RelexationApplication.AssemblyInfoInputs.cache
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\RelexationApplication.AssemblyInfo.cs
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\bin\Debug\netstandard2.0\RelexationApplication.deps.json
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\bin\Debug\netstandard2.0\RelexationApplication.dll
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\bin\Debug\netstandard2.0\RelexationApplication.pdb
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\RelexationApplication.dll
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\RelexationApplication.pdb
+C:\Users\27791\Documents\Visual Studio 2017\Projects\RelexationApplication\RelexationApplication\RelexationApplication\obj\Debug\netstandard2.0\RelexationApplication.csprojAssemblyReference.cache

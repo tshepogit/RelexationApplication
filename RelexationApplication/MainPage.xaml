@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RelexationApplication"
+             x:Class="RelexationApplication.MainPage">
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+
+            <StackLayout Grid.Row="1" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Margin="0, 20, 0, 20">
+                <Frame Grid.Row="1" CornerRadius="15" Padding="0" BackgroundColor="Coral" Margin="20, 2, 20, 0" HasShadow="False" 
+                       WidthRequest="500" HeightRequest="100">
+                    <Label Text="Funny Reading" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" 
+                           BackgroundColor="Transparent"  FontSize="Large" FontAttributes="Bold"/>
+                </Frame>
+            </StackLayout>
+
+            <StackLayout Grid.Row="2" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="0, 40, 0, 10">
+                <Label Text="Fairy tale Stories, Poems and so on stuff like that" HeightRequest="150" LineBreakMode="WordWrap" 
+                       FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" Margin="20, 0, 20, 0" FontSize="Large"
+                       TextColor="Black" BackgroundColor="Transparent" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="3" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="0, 20, 0, 20">
+                <Button Text="Read" TextColor="WhiteSmoke" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Medium" 
+                        BorderRadius="15" BackgroundColor="DarkGray" FontAttributes="Bold" Clicked="btnRead_Clicked"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="4" HorizontalOptions="FillAndExpand">
+                <Frame HasShadow="False" HeightRequest="30" WidthRequest="30" BackgroundColor="SandyBrown"  CornerRadius="15">
+                    <Label Text="Developed by T. V. Koole" FontSize="Medium" FontAttributes="Italic" TextColor="White" 
+                           HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                </Frame>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

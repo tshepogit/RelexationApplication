@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RelexationApplication.Views.ReadingPage">
+    <ContentPage.Content>
+        <ContentView BackgroundColor="Moccasin">
+            <StackLayout BackgroundColor="Moccasin">
+
+                <Frame BackgroundColor="Transparent" Margin="30" CornerRadius="20" HeightRequest="60" WidthRequest="100" HorizontalOptions="FillAndExpand">
+                    <ScrollView HorizontalOptions="Fill" Orientation="Horizontal" BackgroundColor="Transparent">
+                        <Label x:Name="title" FontSize="Large" TextColor="DarkOrange" HorizontalOptions="Center" FontAttributes="Bold"
+                               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                    </ScrollView>
+                </Frame>
+
+                <Frame HeightRequest="800" Padding="10" Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                       CornerRadius="15" MinimumHeightRequest="90" OutlineColor="DarkRed" BackgroundColor="Moccasin">
+                    <StackLayout>
+                        <Label x:Name="author" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start"/>
+                        <ScrollView>
+                        <StackLayout>
+                                <Label x:Name="details" VerticalTextAlignment="Center" FontSize="Medium" TextColor="Black" HorizontalOptions="FillAndExpand"
+                               LineBreakMode="WordWrap" HorizontalTextAlignment="Start"/>
+                            </StackLayout>
+                    </ScrollView>
+                    </StackLayout>
+                            
+                </Frame>
+
+                <Frame BackgroundColor="BurlyWood" HorizontalOptions="FillAndExpand" HasShadow="True">
+                    <Label FontSize="Small" TextColor="Black" FontAttributes="Italic" Text="Developed by T. V. Koole" HorizontalOptions="Center"/>
+                </Frame>
+            </StackLayout>
+        </ContentView>
+    </ContentPage.Content>
+</ContentPage>
